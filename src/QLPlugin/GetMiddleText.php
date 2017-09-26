@@ -5,7 +5,7 @@ namespace liesauer\QLPlugin;
 use QL\Contracts\PluginContract;
 use QL\QueryList;
 
-class GetMiddleText extends PluginContract
+class GetMiddleText implements PluginContract
 {
     public static function install(QueryList $querylist, ...$opts)
     {
