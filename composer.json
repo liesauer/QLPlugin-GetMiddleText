@@ -1,6 +1,6 @@
 {
     "name": "liesauer/ql-plugin-getmiddletext",
-    "description": "QueryList Plugin - getMiddleText",
+    "description": "QueryList Plugin - GetMiddleText",
     "license": "MIT",
     "author": [
         {
@@ -13,6 +13,8 @@
     "require": {
         "jaeger/querylist":"dev-master",
         "liesauer/get-middle-text":"*"
+    },
+    "require-dev": {
     },
     "autoload": {
         "psr-4": {
